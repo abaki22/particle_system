@@ -1,0 +1,40 @@
+.canvas_div {
+	padding: 30px;
+}
+
+.button_row {
+	padding-left: 50px; 
+	padding-right: 50px;
+}
+
+.green_btn {
+	background-color: #4CAF50;
+}
+
+.red_btn {
+	background-color: #f44336;
+}
+
+.banner {
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 80px;
+	padding-top: 30px
+}
+
+li {
+    list-style-type: none;
+}
+
+.button_row_div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.green_input {
+	background-color: green;
+}
+
+.yellow_input {
+	background-color: yellow;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="src.js"></script>
+	<script src="collisions.js"></script>
+	<script src="sphere_generation.js"></script>
+	<script src="event_loop.js"></script>
+	<script src="player.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<h1 class="banner">Ahmet's particle system</h1>
+	</div>
+	<div class="row-sm-12 canvas_div">
+		<canvas id="canvas_one" width="550" height="550" style="border:1px solid #000000;">
+		</canvas>
+	</div>
+	<div class="row button_row">
+		<div class="row">
+			<div class="col-2">
+				<div class="button_row_div row">
+					<button id='grav' type="button" class="btn btn-md green_btn">Gravity</button>
+				</div>
+				<div class="button_row_div row">
+					<button id="halt" type="button" class="btn btn-md btn-danger">Halt Sim</button>
+				</div>
+				<div class="button_row_div row">
+					<button id="start" type="button" class="btn btn-md btn-primary">Start New Sim</button>
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="button_row_div row">
+					<button id="addPlayer" type="button" class="btn btn-md btn-secondary">Add Player</button>
+				</div>
+			</div>
+			<div class="col-3">
+				<ul>
+					<li>
+						<label>N_Circles</label>
+					</li>
+					<li>
+						<label>min_size</label>
+					</li>
+					<li>
+						<label>max_size</label>
+					</li>
+					<li>
+						<label>collision_precision</label>
+					</li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<li>
+						<input value="80" id="nCircles" class="green_input"></input>
+					</li>
+					<li>
+						<input value="10" id="minSize" class="green_input"></input>
+					</li>
+					<li>
+						<input value="20" id="maxSize" class="green_input"></input>
+					</li>
+					<li>
+						<input value="100" id="collisions" class="green_input"></input>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
